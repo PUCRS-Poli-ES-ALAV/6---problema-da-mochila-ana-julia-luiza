@@ -2,7 +2,7 @@ public class ex3 {
 
     static int iteracoesRec = 0;
     static int iteracoesNaoRec = 0;
-
+ 
     public static int knapsackRec(int[] peso, int[] valor, int n, int capacidade) {
         iteracoesRec++;
 
