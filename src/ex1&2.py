@@ -67,6 +67,8 @@ def main():
 
     testes = [4, 8, 16, 32]
 
+    print()
+
     print("".ljust(15), end="")
     for n in testes:
         print(f"n={n}".ljust(15), end="")
@@ -98,6 +100,8 @@ def main():
     print("\nResultados Fibonacci:")
     for n in testes:
         print(f"Fib({n}) = {calcFibonacci(n)}")
+
+    print()
 
 if __name__ == "__main__":
     main()
