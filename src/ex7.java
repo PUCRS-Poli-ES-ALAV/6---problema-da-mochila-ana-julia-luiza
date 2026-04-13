@@ -47,8 +47,10 @@ public class ex7 {
 
     public static void main(String [] args){
 
-      String A = "casa";
-      String B = "pai";
+      // String A = "casa";
+      // String B = "pai";
+      String A = "Casablanca";
+      String B = "Portentoso";
 
       int distancia = distanciaDeEdicaoPD(A, B);
 
